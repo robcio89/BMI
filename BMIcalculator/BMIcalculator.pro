@@ -13,8 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    person.cpp \
+    logger.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    person.h \
+    Sex.h \
+    logger.h
 
 FORMS    += mainwindow.ui
+
+CONFIG += c++11
